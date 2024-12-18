@@ -14,6 +14,8 @@ function calculateAge() {
     let totalsec = Math.floor((newdate - birth) / (1000));
 
     document.getElementById("result").innerHTML = `
+    <br>
+    <br>
     <h3> You have been on Earth for :</h3>
     <h5> ${year} Years </h5>
     <h5> ${month} Months </h5>
